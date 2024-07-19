@@ -1,4 +1,4 @@
-# Fina
+# .NET Fina
 
 To run instance of database, use docker:
 
