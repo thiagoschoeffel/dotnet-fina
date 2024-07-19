@@ -6,8 +6,7 @@ To run instance of database, use docker:
 
 To execute database migrations do you need install **[.NET Core CLI](https://learn.microsoft.com/en-us/ef/core/cli/dotnet)** and execute the commands below
 
-`dotnet ef migrations add v1`
-`dotnet ef database update`
+First `dotnet ef migrations add v1` before `dotnet ef database update`
 
 The Swagger is implement on API
 
