@@ -1,3 +1,4 @@
+using Fina.Api;
 using Fina.Api.Common.Api;
 using Fina.Api.Endpoints;
 
@@ -15,7 +16,8 @@ if (app.Environment.IsDevelopment())
     app.ConfigureDevEnvironment();
 }
 
-app.UseCors();
+app.UseCors(ApiConfiguration.CorsPolicyName);
+
 app.MapEndpoints();
 
 app.Run();
